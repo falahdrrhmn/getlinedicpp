@@ -52,3 +52,27 @@ increment : 11
 decrement : 4
 
 ```
+
+
+# getlinee 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+   string nama; 
+   cout << "Masukkan nama anda : ";
+   getline(cin, nama); 
+
+   // string ngambil variabel dan terpisah dari spasi
+   cout << "Nama anda adalah : " << nama;  
+}
+
+output :
+PS D:\sinau> .\hasilcoba.exe
+Masukkan nama anda : Muhammad Falah Abdurrohman
+Nama anda adalah : Muhammad Falah Abdurrohman
+
+```
