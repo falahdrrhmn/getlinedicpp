@@ -76,3 +76,27 @@ Masukkan nama anda : Muhammad Falah Abdurrohman
 Nama anda adalah : Muhammad Falah Abdurrohman
 
 ```
+
+kalo gamake getline
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+   string nama; 
+   cout << "Masukkan nama anda : ";
+   cin >> nama; 
+
+   // string ngambil variabel dan terpisah dari spasi
+   cout << "Nama anda adalah : " << nama;  
+}
+
+output :
+PS D:\sinau> c++ .\coba.cpp -o hasilcoba
+PS D:\sinau> .\hasilcoba.exe
+Masukkan nama anda : Muhammad Falah A
+Nama anda adalah : Muhammad
+
+```
