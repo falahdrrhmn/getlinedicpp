@@ -38,5 +38,17 @@ int main(){
 
 }
 
+output :
+PS D:\sinau> c++ .\coba.cpp -o hasilcoba
+PS D:\sinau> .\hasilcoba.exe
+Nilai pertama : 10
+Nilai kedua : 5
+tambah : 15
+kurang : 5
+kali : 50
+bagi : 2
+modulus : 0
+increment : 11
+decrement : 4
 
 ```
